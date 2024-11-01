@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #cfa6a63b;
+}
+
+.main_page_container{
+
+  width: 100%;
+  height: 100%;
+  
+}
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* *,
+*::before,
+*::after {
+    box-sizing: content-box;
+} */
+

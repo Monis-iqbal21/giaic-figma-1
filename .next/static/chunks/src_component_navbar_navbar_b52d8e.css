@@ -1,0 +1,48 @@
+/* [project]/src/component/navbar/navbar.css [app-client] (css) */
+.nav_container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 5% 20px 7%;
+  background-color: #cfa6a617;
+}
+
+.link_li {
+  text-decoration: none;
+  margin: 0 1%;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 5px 20px;
+  font-family: Inter, sans-serif;
+}
+
+.li {
+  text-decoration: none;
+  list-style: none;
+  font-family: Inter, sans-serif;
+}
+
+.link_li:hover {
+  background-color: #fff;
+  color: #cfa6a6ef;
+}
+
+@media only screen and (width <= 700px) {
+  .nav_container {
+    justify-content: center;
+  }
+}
+
+@media only screen and (width <= 380px) {
+  .nav_container {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 100%;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+}
+
+/*# sourceMappingURL=src_component_navbar_navbar_b52d8e.css.map*/

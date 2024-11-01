@@ -1,0 +1,30 @@
+/* [project]/src/component/footer/footer.css [app-client] (css) */
+.footer_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 243px;
+  width: 100%;
+  row-gap: 40px;
+  margin-top: 150px;
+}
+
+.icon_div {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+}
+
+.icons {
+  margin: 0 25px;
+}
+
+.copyright {
+  font-family: heebo, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32.31px;
+}
+
+/*# sourceMappingURL=src_component_footer_footer_b52d8e.css.map*/

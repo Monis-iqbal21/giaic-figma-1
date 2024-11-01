@@ -1,0 +1,241 @@
+/* [project]/src/component/navbar/navbar.css [app-client] (css) */
+.nav_container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 7% 20px;
+  background-color: #cfa6a641;
+}
+
+.link_li {
+  text-decoration: none;
+  margin: 0 3%;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+.li {
+  text-decoration: none;
+  list-style: none;
+  font-family: Inter, sans-serif;
+}
+
+.link_li:hover {
+  background-color: #fff;
+  color: #cfa6a6ef;
+}
+
+
+/* [project]/src/component/heroSection/heroSection.css [app-client] (css) */
+.hero_section_container {
+  height: 80vh;
+  width: 100%;
+  padding: 7% 10%;
+}
+
+.hero_section_grid {
+  width: 90%;
+  height: 308px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 0 auto;
+}
+
+.hero_detail_section {
+  padding: 0 30px 0 0;
+}
+
+.hero_h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 61px;
+  font-family: Heebo, sans-serif;
+}
+
+@font-face {
+  font-family: Heebo;
+  src: url("/_next/static/media/Heebo-VariableFont_wght.435a4f3c.ttf") format("truetype");
+}
+
+.hero_summary {
+  font-family: Heebo, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  list-style: 23.5px;
+  margin: 20px 0;
+}
+
+.download_btn {
+  width: 205px;
+  height: 50px;
+  background-color: #f98585;
+  color: #fff;
+  box-shadow: 0 5px 10px #000000bf;
+  -webkit-box-shadow: 0 5px 10px #000000bf;
+  -moz-box-shadow: 0 5px 10px #000000bf;
+  border-radius: 3px;
+  font-family: Heebo, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.hero_pic_section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero_image_div {
+  border-radius: 50%;
+}
+
+.hero_image {
+  width: 292px;
+  height: 292px;
+  border-radius: 50%;
+  -webkit-box-shadow: -12px 11px 0 .5px #aa9f9f4f;
+  -moz-box-shadow: -12px 11px 0 .5px #aa9f9f4f;
+  box-shadow: -12px 11px 0 .5px #aa9f9f4f;
+}
+
+
+/* [project]/src/component/repost/repost.css [app-client] (css) */
+.post_container {
+  width: 100%;
+  height: 502px;
+  background-color: #f4e2e2;
+}
+
+.heading_section {
+  width: 76%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0 20px 27px;
+  font-weight: bold;
+}
+
+.post_grid {
+  width: 72%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 auto;
+  column-gap: 30px;
+}
+
+.post {
+  width: 483px;
+  height: 356px;
+  background-color: #fff;
+  padding: 10% 18% 10% 10%;
+}
+
+.heading_post {
+  font-family: Heebo, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px;
+  height: 87.53px;
+}
+
+.date_detail {
+  font-family: Heebo, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 38px;
+  height: 42.5px;
+  letter-spacing: 2%;
+}
+
+.detail {
+  font-family: Heebo, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.5px;
+  height: 129.7px;
+  padding-top: 5%;
+}
+
+
+/* [project]/src/component/featureWork/featureWork.css [app-client] (css) */
+.feature_work_container {
+  width: 100%;
+  padding: 50px 10% 0;
+}
+
+.feature_work_heading {
+  width: 90%;
+  margin: 0 auto;
+  font-family: heebo, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.feature_main_div {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature_work_grid {
+  width: 100%;
+  height: 272.1px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.img_div {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.feature_img {
+  width: 100%;
+  height: 210px;
+}
+
+.detail_section {
+  flex: 4;
+  text-align: left;
+  padding: 0 0 0 30px;
+}
+
+.detail_heading_feature {
+  font-family: heebo, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.date_feature_detail {
+  font-family: heebo, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #868383;
+  margin: 10px 0 25px;
+}
+
+.date_feature {
+  font-family: heebo, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #f88484;
+  padding: 0 16px;
+  border-radius: 25px;
+  width: 68px;
+  height: 24px;
+  color: #fff;
+}
+
+.detail_feature {
+  font-family: heebo, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+
+/*# sourceMappingURL=src_component_1b4a5e._.css.map*/

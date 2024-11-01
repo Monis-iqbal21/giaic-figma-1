@@ -1,0 +1,77 @@
+/* [project]/src/component/featureWork/featureWork.css [app-client] (css) */
+.feature_work_container {
+  width: 100%;
+  padding: 50px 10% 0;
+}
+
+.feature_work_heading {
+  width: 90%;
+  margin: 0 auto;
+  font-family: heebo, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.feature_main_div {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feature_work_grid {
+  width: 100%;
+  height: 272.1px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.img_div {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.feature_img {
+  width: 100%;
+  height: 210px;
+}
+
+.detail_section {
+  flex: 4;
+  text-align: left;
+  padding: 0 0 0 30px;
+}
+
+.detail_heading_feature {
+  font-family: heebo, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.date_feature_detail {
+  font-family: heebo, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #868383;
+  margin: 10px 0 25px;
+}
+
+.date_feature {
+  font-family: heebo, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #f88484;
+  padding: 0 16px;
+  border-radius: 25px;
+  width: 68px;
+  height: 24px;
+  color: #fff;
+}
+
+.detail_feature {
+  font-family: heebo, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=src_component_featureWork_featureWork_b52d8e.css.map*/

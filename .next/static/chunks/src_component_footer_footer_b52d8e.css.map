@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/component/footer/footer.css"],"sourcesContent":[".footer_div {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    height: 243px;\r\n    width: 100%;\r\n    row-gap: 40px;\r\n    margin-top: 150px;\r\n\r\n}\r\n\r\n.icon_div {\r\n    display: flex;\r\n    flex-direction: row;\r\n    height: 30px;\r\n\r\n\r\n}\r\n\r\n.icons {\r\n    margin: 0 25px;\r\n}\r\n\r\n\r\n.copyright {\r\n    font-family: 'heebo', sans-serif;\r\n    font-size: 22px;\r\n    font-weight: 500;\r\n    Line-height: 32.31px;\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAYA;;;;;;AAQA;;;;AAKA"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

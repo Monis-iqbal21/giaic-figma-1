@@ -1,0 +1,222 @@
+/* [project]/src/component/navbar/navbar.css [app-client] (css) */
+.nav_container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 5% 20px 7%;
+  background-color: #cfa6a617;
+}
+
+.link_li {
+  text-decoration: none;
+  margin: 0 1%;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 5px 20px;
+  font-family: Inter, sans-serif;
+}
+
+.li {
+  text-decoration: none;
+  list-style: none;
+  font-family: Inter, sans-serif;
+}
+
+.link_li:hover {
+  background-color: #fff;
+  color: #cfa6a6ef;
+}
+
+@media only screen and (width <= 700px) {
+  .nav_container {
+    justify-content: center;
+  }
+}
+
+@media only screen and (width <= 380px) {
+  .nav_container {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 100%;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+}
+
+
+/* [project]/src/component/heroSection/heroSection.css [app-client] (css) */
+.hero_section_container {
+  height: auto;
+  width: 100%;
+  padding: 40px 15px;
+  margin-bottom: 20px;
+}
+
+.hero_section_grid {
+  width: 70%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.hero_detail_section {
+  padding: 0 30px 0 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero_h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 61px;
+  font-family: Heebo, sans-serif;
+}
+
+@font-face {
+  font-family: Heebo;
+  src: url("../media/Heebo-VariableFont_wght.435a4f3c.ttf") format("truetype");
+}
+
+.hero_summary {
+  font-family: Heebo, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  list-style: 23.5px;
+  margin: 20px 0;
+}
+
+.download_btn {
+  width: 205px;
+  height: 50px;
+  background-color: #f98585;
+  color: #fff;
+  box-shadow: 0 5px 10px #000000bf;
+  -webkit-box-shadow: 0 5px 10px #000000bf;
+  -moz-box-shadow: 0 5px 10px #000000bf;
+  border-radius: 3px;
+  font-family: Heebo, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.hero_pic_section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.hero_image_div {
+  border-radius: 50%;
+}
+
+.hero_image {
+  aspect-ratio: 4 / 4;
+  border-radius: 50%;
+  -webkit-box-shadow: -12px 11px 0 .5px #aa9f9f4f;
+  -moz-box-shadow: -12px 11px 0 .5px #aa9f9f4f;
+  box-shadow: -12px 11px 0 .5px #aa9f9f4f;
+}
+
+@media only screen and (width <= 768px) {
+  .hero_section_grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 100%;
+    padding: 40px;
+  }
+
+  .hero_detail_section {
+    padding: 0;
+  }
+}
+
+@media only screen and (width <= 425px) {
+  .hero_section_grid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    row-gap: 50px;
+  }
+}
+
+@media only screen and (width <= 375px) {
+  .hero_section_grid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    row-gap: 50px;
+    padding: 40px 0;
+  }
+}
+
+
+/* [project]/src/component/repost/repost.css [app-client] (css) */
+.post_container {
+  width: 100%;
+  padding: 20px 0 50px;
+  background-color: #f4e2e2;
+}
+
+.heading_section {
+  width: 76%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0 20px 27px;
+  font-weight: bold;
+}
+
+.post_grid {
+  width: 72%;
+  display: flex;
+  margin: 0 auto;
+  column-gap: 30px;
+}
+
+.post {
+  width: 100%;
+  height: 356px;
+  background-color: #fff;
+  padding: 5%;
+}
+
+.heading_post {
+  font-family: Heebo, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38px;
+  height: 87.53px;
+}
+
+.date_detail {
+  font-family: Heebo, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 38px;
+  height: 42.5px;
+  letter-spacing: 2%;
+}
+
+.detail {
+  font-family: Heebo, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.5px;
+  height: 129.7px;
+  padding-top: 5%;
+}
+
+
+/*# sourceMappingURL=src_component_ae640e._.css.map*/

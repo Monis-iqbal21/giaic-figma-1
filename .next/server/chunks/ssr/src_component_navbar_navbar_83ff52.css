@@ -1,0 +1,30 @@
+/* [project]/src/component/navbar/navbar.css [app-client] (css) */
+.nav_container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 7% 20px;
+  background-color: #cfa6a641;
+}
+
+.link_li {
+  text-decoration: none;
+  margin: 0 3%;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+
+.li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.link_li:hover {
+  background-color: #fff;
+  color: #cfa6a6ef;
+}
+
+
+/*# sourceMappingURL=src_component_navbar_navbar_83ff52.css.map*/
